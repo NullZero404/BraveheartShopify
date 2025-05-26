@@ -54,7 +54,7 @@ import p_img50 from './p_img50.png'
 import p_img51 from './p_img51.png'
 import p_img52 from './p_img52.png'
 
-
+import alden from './alden.png'
 import logo from './logo.png'
 import hero_img from './hero_img.png'
 import cart_icon from './cart_icon.png'
@@ -75,6 +75,7 @@ import stripe_logo from './stripe_logo.png'
 import cross_icon from './cross_icon.png'
 
 export const assets = {
+    alden,
     logo,
     hero_img,
     cart_icon,
@@ -98,7 +99,8 @@ export const assets = {
 export const products = [
     {
         _id: "aaaaa",
-        name: "Women Round Neck Cotton Top",
+        // Women Round Neck Cotton Top
+        name: "Men's Hoodie Something Something",
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 100,
         image: [p_img1],
@@ -110,7 +112,8 @@ export const products = [
     },
     {
         _id: "aaaab",
-        name: "Men Round Neck Pure Cotton T-shirt",
+        // Men Round Neck Pure Cotton T-shirt
+        name: "Hoodie 2",
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 200,
         image: [p_img2_1,p_img2_2,p_img2_3,p_img2_4],
@@ -122,7 +125,8 @@ export const products = [
     },
     {
         _id: "aaaac",
-        name: "Girls Round Neck Cotton Top",
+        //Girls Round Neck Cotton Top
+        name: "Men Round Neck T-shirt White",
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 220,
         image: [p_img3],
@@ -134,7 +138,8 @@ export const products = [
     },
     {
         _id: "aaaad",
-        name: "Men Round Neck Pure Cotton T-shirt",
+        //Men Round Neck Pure Cotton T-shirt
+        name: "Men Round Neck T-shirt Black",
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 110,
         image: [p_img4],
@@ -146,7 +151,7 @@ export const products = [
     },
     {
         _id: "aaaae",
-        name: "Women Round Neck Cotton Top",
+        name: "Tangina dalawang damit HAHAHAH",
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 130,
         image: [p_img5],
